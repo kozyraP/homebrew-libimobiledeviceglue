@@ -1,6 +1,8 @@
 class LibimobiledeviceGlue < Formula
     desc "Library with common system API code for libimobiledevice projects"
     homepage "https://www.libimobiledevice.org/"
+    url "https://github.com/kozyraP/libimobiledevice-glue/archive/refs/tags/1.0.tar.gz"
+    sha256 "bfbedd224e7ead65171e870eecead12cd573c564afcf35a628674516c2bcfb72"
     license "LGPL-2.1-or-later"
     # Official Repo provides both a populated master and an empty main branch
     head "https://github.com/kozyraP/libimobiledevice-glue.git", branch: "master"
